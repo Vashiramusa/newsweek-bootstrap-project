@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+  
+header > nav a {
+  font-size: 1.1rem;
+}
+  
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.link-container a:hover {
+  text-decoration: none;
+}
+
+.link-container a {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+  
