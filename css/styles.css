@@ -8,13 +8,19 @@ header > nav a {
   font-size: 1.1rem;
 }
 
+.related a {
+  color: #000;
+  font-weight: bold;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
 a:hover {
   text-decoration: none;
   color: inherit;
-}
-
-.most-read > a {
-  color: #555;
 }
 
 .outer-container {
@@ -26,9 +32,34 @@ a:hover {
   margin: 15px 30px;
 }
 
-.subscribe > span,
-.most-read > a {
+.more-stories a,
+.opinions a,
+.latest-news a {
   font-size: 1rem;
+}
+
+.card-title a {
+  color: #000;
+}
+
+.most-read > a {
+  color: #555;
+  font-size: 1rem;
+}
+
+footer span {
+  vertical-align: top;
+}
+
+.subscribe > span {
+  font-size: 1rem;
+  color: #f72210;
+  font-weight: bold;
+}
+
+.newsletter a {
+  font-size: 0.9rem;
+  color: #333;
 }
 
 .link-container a {
@@ -38,51 +69,12 @@ a:hover {
   text-transform: uppercase;
 }
 
-.card-title a {
-  color: #000;
-}
-
-.related a {
-  color: #000;
-  font-weight: bold;
-}
-
-.more-stories a,
-.opinions a,
-.latest-news a {
-  font-size: 1rem;
-}
-
-.newsletter a {
-  font-size: 0.9rem;
-  color: #333;
-}
-
 .news-categories h2 a {
   color: #f72210;
 }
 
 .link-container a:hover {
   text-decoration: none;
-}
-
-.most-read > a:hover {
-  color: #555;
-  text-decoration: none;
-}
-
-.card-title a:hover {
-  text-decoration-color: #f72210;
-}
-
-.most-read ul a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
-.subscribe > span {
-  color: #f72210;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 1326px) {
@@ -112,7 +104,7 @@ header .col {
   padding-left: 0;
 }
 
-.link-container .btn{
+.link-container .btn {
   padding: 3px 10px;
 }
 
@@ -236,14 +228,8 @@ header .nav-item span {
 .opinions li,
 .latest-news li {
   border: none;
-  border-radius: 0;
   padding: 14px 0;
   line-height: 1.2;
-}
-
-.more-stories li,
-.latest-news li {
-  border-top: 1px solid #d9d9d9;
 }
 
 .more-stories img,
@@ -253,25 +239,29 @@ header .nav-item span {
   margin-right: 12px;
 }
 
-.more-stories a:hover {
-  color: #000;
-  text-decoration-color: #f72210;
-}
-
 .more-stories .description {
   margin-top: 10px;
 }
 
-.opinions a:hover,
-.latest-news a:hover {
-  text-decoration: none;
-  color: #f72210;
+.more-stories li,
+.latest-news li {
+  border-top: 1px solid #d9d9d9;
+}
+
+.more-stories a:hover {
+  color: #000;
+  text-decoration-color: #f72210;
 }
 
 .opinions li {
   margin-bottom: 0;
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 0;
+}
+
+footer .social li {
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .opinions li:last-child {
@@ -473,11 +463,6 @@ header .nav-item span {
   margin-right: 10px;
 }
 
-.news-categories .list-group-item a:hover {
-  text-decoration: none;
-  color: #f72210;
-}
-
 .subscribe,
 .most-read {
   margin-top: 40px;
@@ -522,6 +507,11 @@ header .nav-item span {
   margin-top: 20px;
 }
 
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
 .most-read ul { margin-top: 10px; }
 
 .most-read ul .list-img {
@@ -538,26 +528,12 @@ footer small {
   vertical-align: bottom;
 }
 
-footer ul {
-  list-style: none;
-  margin: 0;
-}
-
 footer .social {
   text-align: right;
 }
 
-footer .social li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
 footer ul:last-child {
   margin-top: 5px;
-}
-
-footer span {
-  vertical-align: top;
 }
 
 footer nav {
@@ -568,9 +544,4 @@ footer .nav-link {
   padding: 0 10px;
   border-right: 1px solid #d9d9d9;
   color: #666;
-}
-
-footer ul li a {
-  font-size: 0.9rem;
-  font-weight: normal;
 }
