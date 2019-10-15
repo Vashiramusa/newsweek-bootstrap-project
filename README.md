@@ -41,7 +41,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![alt text]( "Logo Title Text 1")
+![alt text](https://lasander.sirv.com/Screenshot%20from%202019-10-15%2016-32-23.png "Logo Title Text 1")
 
 Goals in this project:
 * Responsive Web Design 

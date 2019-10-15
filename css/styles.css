@@ -8,14 +8,14 @@ header > nav a {
   font-size: 1.1rem;
 }
 
-.related a {
-  color: #000;
-  font-weight: bold;
-}
-
 footer ul li a {
   font-size: 0.9rem;
   font-weight: normal;
+}
+
+.related a {
+  color: #000;
+  font-weight: bold;
 }
 
 a:hover {
