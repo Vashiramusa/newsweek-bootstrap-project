@@ -1,4 +1,9 @@
----
 linters:
-   stylelint:
-       config: 'stylelintrc.json'
+ stylelint:
+   config: 'stylelint.config.js'
+   fixer: true
+files:
+   ignore:
+       - 'bootstrap.min.css'
+fixers:
+   enable: true
