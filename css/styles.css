@@ -1,23 +1,16 @@
 a {
   text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
-  
+
 header > nav a {
   font-size: 1.1rem;
 }
-  
+
 a:hover {
   text-decoration: none;
   color: inherit;
-}
-
-
-.link-container a:hover {
-  text-decoration: none;
-}
-
-.link-container a {
-  font-size: 1rem;
 }
 
 .most-read > a {
@@ -26,6 +19,7 @@ a:hover {
 
 .outer-container {
   margin: 0 20px;
+  background-color: #fff;
 }
 
 .inner-container {
@@ -34,16 +28,23 @@ a:hover {
 
 .subscribe > span,
 .most-read > a {
-  text-transform: uppercase;
   font-size: 1rem;
 }
 
-.magazine-cta a {
+.link-container a {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
   text-transform: uppercase;
 }
 
 .card-title a {
   color: #000;
+}
+
+.related a {
+  color: #000;
+  font-weight: bold;
 }
 
 .more-stories a,
@@ -81,6 +82,7 @@ a:hover {
 
 .subscribe > span {
   color: #f72210;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1326px) {
@@ -487,4 +489,88 @@ header .nav-item span {
   margin-top: 10px;
 }
 
+#subscribe-box img {
+  float: left;
+  margin-right: 20px;
+}
 
+#subscribe-box a {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+#subscribe-box a:hover {
+  text-decoration-color: #f72210;
+  color: #000;
+}
+
+#subscribe-box .btn {
+  background-color: #f72210;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+#subscribe-box .btn:hover {
+  background-color: #de1f0e;
+  color: #fff;
+}
+
+#subscribe-box .btn-container {
+  margin-top: 20px;
+}
+
+.most-read ul { margin-top: 10px; }
+
+.most-read ul .list-img {
+  padding: 10px 10px 10px 0;
+  width: 25%;
+}
+
+footer {
+  padding: 20px 30px;
+  border-top: 2px solid #f4f5f6;
+}
+
+footer small {
+  vertical-align: bottom;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+footer .social {
+  text-align: right;
+}
+
+footer .social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+footer ul:last-child {
+  margin-top: 5px;
+}
+
+footer span {
+  vertical-align: top;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+footer .nav-link {
+  padding: 0 10px;
+  border-right: 1px solid #d9d9d9;
+  color: #666;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
