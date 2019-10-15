@@ -1,0 +1,24 @@
+{"name": "newsweek-bootsrap",
+    "version": "1.0.0",
+    "description": "",
+    "main": "stylelint.config.js",
+    "dependencies": {},
+    "devDependencies": {
+      "stylelint": "^10.1.0",
+      "stylelint-config-recommended": "^2.2.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Vashiramusa/newsweek-bootsrap.git"
+    },
+    "keywords": [],
+    "author": "Vashira Musa",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Vashiramusa/newsweek-bootsrap/issues"
+    },
+    "homepage": "https://github.com/Vashiramusa/newsweek-bootsrap#readme"
+  }
